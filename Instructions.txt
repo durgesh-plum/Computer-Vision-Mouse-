@@ -1,0 +1,12 @@
+d:
+cd D:\Productize\Projects\Ongoing\durgeshmurugan-computer-vision-mouse
+conda activate cursor-controller
+python ComputerVisionMouse.py
+
+
+To create exe file:
+pyinstaller --debug=all ComputerVisionMouse.spec --windowed --onefile
+
+
+To run:
+Just double click the exe file
